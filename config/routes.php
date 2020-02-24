@@ -76,7 +76,6 @@ $routes->scope('/', function (RouteBuilder $builder) {
         ['_name' => 'auth.login']);
     $builder->connect('/auth/logout', ['controller' => 'Auth', 'action' => 'logout'],
         ['_name' => 'auth.logout']);
-
     /*
      * Connect catchall routes for all controllers.
      *

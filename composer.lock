@@ -1908,7 +1908,7 @@
                 "dependency",
                 "package"
             ],
-            "time": "2020-02-14T14:11:30+00:00"
+            "time": "2020-02-04T11:58:49+00:00"
         },
         {
             "name": "composer/semver",
@@ -4230,7 +4230,6 @@
             },
             "require": {
                 "php": "^7.2.5"
-            },
             "type": "library",
             "extra": {
                 "branch-alias": {

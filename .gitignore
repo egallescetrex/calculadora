@@ -1,8 +1,58 @@
+=======
+# CakePHP specific files #
+##########################
+/config/app_local.php
+/config/.env
+/logs/*
+/tmp/*
+/vendor/*
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+.directory
+
+# Tool specific files #
+#######################
+# PHPUnit
+.phpunit.result.cache
+# vim
+*~
+*.swp
+*.swo
+# sublime text & textmate
+*.sublime-*
+*.stTheme.cache
+*.tmlanguage.cache
+*.tmPreferences.cache
+# Eclipse
+.settings/*
+# JetBrains, aka PHPStorm, IntelliJ IDEA
+.idea/*
+# NetBeans
+nbproject/*
+# Visual Studio Code
+.vscode
+# Sass preprocessor
+.sass-cache/
+
 # CakePHP 4
 
 /vendor/*
 /config/app.php
 /config/app_local.php
+# CakePHP 3
+
+/vendor/*
+/config/app.php
+>>>>>>> 2e0fa8ae507c834c145345e9fc2e027ae542cff5
 
 /tmp/cache/models/*
 !/tmp/cache/models/empty
@@ -19,4 +69,11 @@
 !/logs/empty
 
 /tmp/debug_kit.sqlite
+<<<<<<< HEAD
 /config/Migrations/schema-dump-default.lock
+# CakePHP 2
+
+/app/tmp/*
+/app/Config/core.php
+/app/Config/database.php
+/vendors/*
